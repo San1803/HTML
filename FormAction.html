@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FOrm </title>
+</head>
+
+<body>
+    <!-- Get mehthod use kari h yaha par, Get method use karne se details HTTP ke Url me show hoti h -->
+    <h1>SignUp</h1>
+    <!-- <form action="Thankyou.html" method="get">
+        <label for="User Name">User name</label>
+        <input type="text" id="User Name" name="User Name">
+        <br>
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" id="Password" name="Password">
+        <br>
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" name="Email"> <Br></Br>
+        <input type="submit" value="Sign in"> -->
+
+    <!--   Yaha par Post method use kari h, Post method use karne se details HTTP ke head me jaati h  -->
+
+
+    <form action="Thankyou.html" method="post">
+        <strong><label for="User Name">User name</label></strong>
+        <input type="text" id="User Name" name="User Name" placeholder="User Name" required> <br><br>
+        <strong><label for="Password">Password</label></strong>
+        <input type="password" id="Password" name="Password" placeholder="Password" required><br> <br>
+        <strong><label for="Email">Email</label></strong>
+        <input type="email" id="Email" name="Email" placeholder="Email" required> <Br>
+
+        <strong>
+            <p>Select you Gender</p>
+        </strong>
+        <!-- Value tag is liye use kara h yaha kyuki ye value hume kahi send karni h  -->
+        <Strong><label for="Male">Male</label></Strong>
+        <input type="radio" id="Male" name="Gender" value="Male"> <br>
+
+        <Strong><label for="Female">Female</label></Strong>
+        <input type="radio" id="Female" name="Gender" value="Female"> <br>
+
+        <strong><label for="Other">Other</label></strong>
+        <input type="radio" id="Other" name="Gender" value="Other"><br>
+
+        <strong><label for="Age-Group">Select your age group</label></strong>
+        <Select name="id" id="Age-Group">
+            <option value="5-10">5-10</option>
+            <option value="11-20">11-20</option>
+            <option value="21-30">21-30</option>
+            <option value="31-50">31-50</option>
+            <option value="51+">51+</option>
+        </Select>
+
+        <br><br>
+        <input type="submit" value="Sign in">
+    </form>
+</body>
+
+</html>
